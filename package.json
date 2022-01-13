@@ -1,0 +1,20 @@
+{
+  "name": "userinterface_api",
+  "version": "1.0.0",
+  "description": "this is a simple user db",
+  "main": "userinterface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kevin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
